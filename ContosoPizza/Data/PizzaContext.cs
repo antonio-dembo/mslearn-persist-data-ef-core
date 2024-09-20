@@ -11,6 +11,6 @@ class PizzaContext : DbContext
     }
 
     public DbSet<Pizza> Pizzas => Set<Pizza>();
-    public DbSet<Topping> Topping => Set<Topping>();
-    public DbSet<Sauce> Sauce => Set<Sauce>();
+    public DbSet<Topping> Toppings => Set<Topping>();
+    public DbSet<Sauce> Sauces => Set<Sauce>();
 }
